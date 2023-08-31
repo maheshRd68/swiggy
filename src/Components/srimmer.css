@@ -1,0 +1,22 @@
+.srimmer-Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #d2d0d0;
+   
+}
+
+.srimmer-card{
+ 
+    margin: 35px 10px 25px 10px;
+    border-radius: 10px;
+    width: 200px;
+    height: 250px;
+    position: relative;
+    background-color: rgb(176, 178, 178);
+}
+.srimmer-contianer{
+    display: flex;
+    flex-wrap: wrap;
+    
+}

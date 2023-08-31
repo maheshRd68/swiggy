@@ -1,0 +1,151 @@
+/* .Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #f7a77f;
+   
+}
+.logo{
+    width: 6rem;
+}
+.Nav{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.Nav li{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0 20px;
+    cursor:pointer;
+    color:rgb(8, 8, 8);
+}
+
+button{
+    background-color: rgb(235, 68, 17);
+    width: auto;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    color:#fff;
+    font-family:'Segoe UI', Tahoma, sans-serif;
+    margin: 10px;
+}
+
+.card:hover{
+    transform: scale(.93);
+}
+
+
+.card{
+ 
+    border-radius:10px;
+    box-shadow: .5px .5px 10px .5px #151515dd;
+    margin: 10px;
+    width: 200px;
+    position: relative;
+    transition: transform .2s;
+    row-gap: 15px;
+    
+}
+
+.restaurant-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px ;
+  
+}
+.cardImg-container{
+    position: absolute;
+}
+.card-img{
+
+    width: 100%;
+    height: 40%;
+    border-radius: 10px 10px 0 0;
+ 
+}
+
+.resDetails{
+  
+    width: 100%;
+    height: 100px;
+
+}
+.resDetails li{
+    list-style: none;
+    margin: 0;
+
+}
+
+h2{
+    font-family: Copperplate, Papyrus, fantasy;
+    padding: 0 5px;
+}
+
+
+
+ */
+
+ .line-clamp-1 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-weight: 500;
+  }
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-weight: 200;
+    font-size: 13px;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    /* letter-spacing: -0.3px; */
+  }
+
+  .my_class{
+    position: absolute;
+    color: white;
+    bottom: 96px;
+    left: 6%;
+    font-size: 16px;
+    font-weight: 900;
+    background:linear-gradient(rgba(27, 30, 36, 0) 0%, rgb(27, 30, 36) 84.21%);
+    width: 88%;
+    height: 40px;
+    /* margin: 10px 10px; */
+    display: flex;
+justify-content: start;
+padding-left: 10px;
+   align-items: flex-end;
+    z-index: 1;
+    border-radius: 10px;
+}
+.restaurantName{
+    width: 100%;
+    height: 15px;
+    font-size: 20px;
+    align-items: center;
+    
+}
+
+.icon-downArrow:before {
+    content: "\2304";
+}
+
+.accordion:before {
+
+    font-family: 'Arial Unicode MS', 'Consolas';
+    content: "\2304";
+  
+    font-size: 30px !important;
+    color: #777;
+    float: left;
+    margin-left: 5px;
+    margin-top: -3vh ;
+  }
+
+  button.accordion.active:after {
+    content: "\2303";
+    max-height: 1vh;
+  }
